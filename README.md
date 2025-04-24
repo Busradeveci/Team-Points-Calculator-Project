@@ -1,35 +1,34 @@
-Bu proje, `statistics.txt` dosyasından takım istatistiklerini okuyarak, galibiyet, mağlubiyet ve beraberliklere göre puan hesaplayan bir Python uygulamasıdır. 
+# Team Points Calculator Project
+This project is a Python application that reads team statistics from a file named `statistics.txt` and calculates the points based on wins, losses, and draws.
 
-**Özellikler:**
+## Features
+- Calculates the points for teams based on their wins, losses, and draws.
+- Reads data from the `statistics.txt` file.
+- Prints the results to the screen.
 
-- Takımların galibiyet, mağlubiyet ve beraberlik sayılarına göre puanlarını hesaplar.
-- `statistics.txt` dosyasından verileri okuyarak işlem yapar.
-- Sonuçları ekrana yazdırır.
+## Technologies Used
+- Python
 
-**Kullanılan Teknolojiler:**
-
-- Python
-
-**Kurulum ve Kullanım:**
-
-1. Depoyu klonlayın:
-
+## Installation and Usage
+1. Clone the repository:
    ```bash
    git clone https://github.com/Busradeveci/Team-Points-Calculator-Project.git
    ```
 
-2. `statistics.txt` dosyasını, her satırda bir takım olacak şekilde ve her satırda takım adı, galibiyet sayısı, mağlubiyet sayısı ve beraberlik sayısı arasında virgül ile ayrılmış olarak oluşturun:
-
+2. Create the `statistics.txt` file with the following format:
+   Each line should represent a team with the team name, number of wins, losses, and draws separated by commas:
    ```
-   TakımA,10,2,3
-   TakımB,8,4,3
-   TakımC,12,1,2
+   TeamA,10,2,3
+   TeamB,8,4,3
+   TeamC,12,1,2
    ```
 
-3. `main.py` dosyasını çalıştırın:
-
+3. Run the `main.py` file:
    ```bash
    python main.py
    ```
+   
+The results will be displayed on the screen.
 
-4. Sonuçlar ekranda görüntülenecektir.
+## Contributing
+To contribute, fork the repository and submit a pull request with your changes.
